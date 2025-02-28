@@ -12,3 +12,10 @@ Swift Package Manager (SPM):
 dependencies: [
     .package(url: "https://github.com/yourusername/SwiftRouter.git", from: "1.0.0")
 ]
+```
+
+## Usage
+import SwiftRouter
+
+// Example of using SwiftRouter
+SwiftRouter.push(destination: SomeView())
