@@ -19,7 +19,8 @@ dependencies: [
 ]
 ```
 
-##Usage
+## Usage
+
 ```swift
 import SwiftRouter
 
