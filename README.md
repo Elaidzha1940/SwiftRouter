@@ -1,5 +1,4 @@
-SwiftRouter.
-=====
+# SwiftRouter
 
 ## Features  
 ✅ Easy-to-use API for navigation  
@@ -8,16 +7,23 @@ SwiftRouter.
 
 ## Installation  
 Swift Package Manager (SPM):  
+1. Open Xcode and go to **File** → **Add Packages**  
+2. Enter the URL:  
+3. Select **Add Package**  
+
+Or manually add to `Package.swift`:  
+
 ```swift
 dependencies: [
-    .package(url: "https://github.com/yourusername/SwiftRouter.git", from: "1.0.0")
+ .package(url: "https://github.com/yourusername/SwiftRouter.git", from: "1.0.0")
 ]
 ```
 
-## Usage
+##Usage
+```swift
 import SwiftRouter
 
-```swift
 // Example of using SwiftRouter
 SwiftRouter.push(destination: SomeView())
 ```
+
