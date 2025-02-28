@@ -17,5 +17,7 @@ dependencies: [
 ## Usage
 import SwiftRouter
 
+```swift
 // Example of using SwiftRouter
 SwiftRouter.push(destination: SomeView())
+```
